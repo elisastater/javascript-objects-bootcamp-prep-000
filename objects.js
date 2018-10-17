@@ -17,4 +17,10 @@ playlist[songTitle3] ="Here's to the State of Mississipi";
 }
 console.log(playlist)
 
-function removeFromPlaylist(plalist)
+function removeFromPlaylist(playlist, artistName1, songTitle) {
+  delete playlist.Slowdive;
+  delete playlist.Allison;
+  
+  return playlist;
+  
+}
