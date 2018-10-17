@@ -13,7 +13,7 @@ function updatePlaylist(playlist, artistName3, songTitle3) {
 playlist[artistName3] = "Phil Buchs"; 
 playlist[songTitle3] ="Here's to the State of Mississipi";
 
-   return this.playlist;
+   return playlist;
 }
 console.log(playlist)
 
